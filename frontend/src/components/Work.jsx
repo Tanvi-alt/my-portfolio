@@ -40,7 +40,7 @@ const Work = () => {
       </div>
          {/* Fourth work */}
       <div className='flex flex-col items-start gap-[25px]'>
-        <div><img onClick={()=>window.open("https://inotebookfrontend-six.vercel.app/","blank")} className='w-[315px] h-[315px] bg-center bg-cover bg-no-repeat' src="/Image3.svg" alt="" /></div>
+        <div><img onClick={()=>window.open("https://newsapp-ci6p.vercel.app/","blank")} className='w-[315px] h-[315px] bg-center bg-cover bg-no-repeat' src="/Image3.svg" alt="" /></div>
         <div className='flex flex-col items-start w-[315px] gap-[10px]'>
         <p className='w-[315px] text-[#2D2D2D] text-[20px] not-italic font-semibold leading-[30px]'>MERN Stack Latest News Aggregator</p>
 
