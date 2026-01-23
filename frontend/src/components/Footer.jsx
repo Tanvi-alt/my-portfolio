@@ -61,7 +61,7 @@ const [message, setMessage] = useState("");
                     <div className='w-[232px] h-[36px] flex justify-center items-center gap-[13px]'>
                         <img className='w-[36px] h-[36px]' src="/discord.svg" alt="" />
                         <img className='w-[36px] h-[36px]' src="/nstagram.svg" alt="" />
-                        <img className='w-[36px] h-[36px]' src="/behance.svg" alt="" />
+                        <img className='w-[36px] h-[36px]' src="/github.svg" alt="" />
                         <img className='w-[36px] h-[36px]' src="/facebook.svg" alt="" />
                         <img className='w-[36px] h-[36px]' src="/dribbble1.svg" alt="" />
                     </div>
