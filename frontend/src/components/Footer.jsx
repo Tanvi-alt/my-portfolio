@@ -59,10 +59,10 @@ const [message, setMessage] = useState("");
                     </div>
                     {/* Socials */}
                     <div className='w-[232px] h-[36px] flex justify-center items-center gap-[13px]'>
-                        <img className='w-[36px] h-[36px]' src="/discord.svg" alt="" />
-                        <img className='w-[36px] h-[36px]' src="/nstagram.svg" alt="" />
-                        <img className='w-[36px] h-[36px]' src="/github.svg" alt="" />
-                        <img className='w-[36px] h-[36px]' src="/facebook.svg" alt="" />
+                        <img onClick={()=>window.open("https://vercel.com/tanvis-projects-2dbc562c","blank")} className='w-[36px] h-[36px]' src="/vercel.svg" alt="" />
+                        <img onClick={()=>window.open("https://www.instagram.com/p.tanvi0/")} className='w-[36px] h-[36px]' src="/nstagram.svg" alt="" />
+                        <img onClick={()=>window.open("https://github.com/Tanvi-alt","blank")}  className='w-[36px] h-[36px]' src="/github.svg" alt="" />
+                        <img onClick={()=>window.open("https://www.linkedin.com/in/tanvi-pindkurwar-a01809381/","blank")} className='w-[36px] h-[36px]' src="/linkedin.svg" alt="" />
                         <img className='w-[36px] h-[36px]' src="/dribbble1.svg" alt="" />
                     </div>
                 </div>
